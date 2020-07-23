@@ -1,0 +1,186 @@
+/* Basic Style */
+body {
+    background: #fff;
+    color: white;
+    font-family: Lato, sans-serif;
+    font-style: italic;
+  }
+
+
+  	
+ .shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+}
+.banner{
+	background-image:url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');
+	text-align: center;
+    color: #fff;
+   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner-text{
+	padding:200px 0 150px 0;
+}
+.banner-heading{
+	font-family: 'Lobster', cursive;
+	font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+	color: purple;
+}
+.banner-sub-heading{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+color: white;
+}
+
+.btn-banner{
+    width: 100px;
+	padding:5px 20px;
+	border-radius:10px;
+	font-weight:bolder;
+	line-height:1.5;
+	text-align:center;
+    color:black;
+
+    background-color: aqua;
+	text-transform:uppercase;
+}
+  .container {
+    display: block;
+    width: 400px;
+    margin: 100px auto 0;
+    background-color:grey;
+    border-radius: 1em;
+   
+
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li * {
+    float: left;
+  }
+  li, h3 {
+    clear:both;
+    list-style:none;
+  }
+  input, button {
+    outline: none;
+    
+  }
+  button {
+    background: none;
+    border: 0px;
+    border-radius: 1em;
+    color: green;
+    font-size: 20px;
+    width: 70px;
+    margin: 10px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+    background-color: black;
+
+  }
+  button:hover {
+    color: #333;
+  }
+  /* Heading */
+  h3,
+  label[for='new-task'] {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    padding: 30px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  input[type="text"] {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid black;
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+  }
+  input[type="text"]:focus {
+    color: #333;
+  }
+  
+  /* New Task */
+  label[for='new-task'] {
+    display: block;
+    margin: 0 0 20px;
+  }
+  input#new-task {
+    float: left;
+    width: 318px;
+  }
+  p > button:hover {
+    color: #0FC57C;
+  }
+  
+  /* Task list */
+  li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+  }
+  li > input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+  }
+  li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 237px;
+    padding: 0 0 0 11px;
+  }
+  li >  input[type="text"] {
+    width: 226px;
+  }
+  li > .delete:hover {
+    color: #CF2323;
+  }
+
+  li > .edit:hover {
+    color: blue;
+  }
+  
+  /* Completed */
+  #completed-tasks label {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* Edit Task */
+  ul li input[type=text] {
+    display:none;
+  }
+  
+  ul li.editMode input[type=text] {
+    display:block;
+  }
+  
+  ul li.editMode label {
+    display:none;
+  }
